@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:padding="16dp">
+
+    <!-- Location 1 -->
+    <LinearLayout
+        android:id="@+id/location1Container"
+        style="@style/LocationContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/location1Image"
+            style="@style/LocationImage"
+            android:src="@drawable/location1"
+            android:contentDescription="@string/shrine_remembrance" />
+
+        <TextView
+            android:id="@+id/location1Title"
+            style="@style/LocationTitle"
+            android:text="@string/shrine_remembrance" />
+
+        <RatingBar
+            android:id="@+id/location1Rating"
+            style="@style/LocationRating" />
+    </LinearLayout>
+
+    <!-- Location 2 -->
+    <LinearLayout
+        android:id="@+id/location2Container"
+        style="@style/LocationContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/location2Image"
+            style="@style/LocationImage"
+            android:src="@drawable/location2"
+            android:contentDescription="@string/opera_house" />
+
+        <TextView
+            android:id="@+id/location2Title"
+            style="@style/LocationTitle"
+            android:text="@string/opera_house" />
+
+        <RatingBar
+            android:id="@+id/location2Rating"
+            style="@style/LocationRating" />
+    </LinearLayout>
+
+    <!-- Location 3 -->
+    <LinearLayout
+        android:id="@+id/location3Container"
+        style="@style/LocationContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/location3Image"
+            style="@style/LocationImage"
+            android:src="@drawable/location3"
+            android:contentDescription="@string/brisbane_beach" />
+
+        <TextView
+            android:id="@+id/location3Title"
+            style="@style/LocationTitle"
+            android:text="@string/brisbane_beach" />
+
+        <RatingBar
+            android:id="@+id/location3Rating"
+            style="@style/LocationRating" />
+    </LinearLayout>
+
+    <!-- Location 4 -->
+    <LinearLayout
+        android:id="@+id/location4Container"
+        style="@style/LocationContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/location4Image"
+            style="@style/LocationImage"
+            android:src="@drawable/location4"
+            android:contentDescription="@string/bali_temple" />
+
+        <TextView
+            android:id="@+id/location4Title"
+            style="@style/LocationTitle"
+            android:text="@string/bali_temple" />
+
+        <RatingBar
+            android:id="@+id/location4Rating"
+            style="@style/LocationRating" />
+    </LinearLayout>
+
+</GridLayout>

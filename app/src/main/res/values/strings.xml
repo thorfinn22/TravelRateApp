@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="shrine_remembrance">Shrine of Remembrance</string>
+    <string name="opera_house">Sydney Opera House</string>
+    <string name="brisbane_beach">Brisbane Beach</string>
+    <string name="bali_temple">Bali Temple</string>
+
+    <string name="melbourne_region">Melbourne, Victoria, Australia</string>
+    <string name="sydney_region">Sydney, New South Wales, Australia</string>
+    <string name="brisbane_region">Brisbane, Queensland, Australia</string>
+    <string name="bali_region">Denpasar, Bali, Indonesia</string>
+
+    <string name="last_visited">Last visited: %1$s</string>
+    <string name="location_detail_image">Location detail image</string>
+</resources>
